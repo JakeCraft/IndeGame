@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="IndeGame:jar">
+    <output-path>$PROJECT_DIR$/../../Games</output-path>
+    <root id="archive" name="IndeGame.jar">
+      <element id="module-output" name="IndeGame" />
+    </root>
+  </artifact>
+</component>
