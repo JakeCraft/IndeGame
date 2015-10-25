@@ -27,7 +27,7 @@ public class Board extends JPanel {
 
     private String level =
                       "                  \n"
-                    + "   !         %    \n"
+                    + " !           %    \n"
                     + "         *        \n"
                     + "                  \n"
                     + "                  \n"
