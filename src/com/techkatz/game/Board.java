@@ -116,10 +116,9 @@ public class Board extends JPanel {
 
             Actor item = (Actor) world.get(i);
 
-            if ((item instanceof Player)
-                    || (item instanceof Grass)) {
+            if ((item instanceof Player) || (item instanceof Grass)) {
                 g.drawImage(item.getImage(), item.x() + 0, item.y() + 1, this);
-            }else {
+            } else {
                 g.drawImage(item.getImage(), item.x(), item.y(), this);
             }
         }
@@ -169,12 +168,12 @@ public class Board extends JPanel {
                 }
                 present.move(0, SPACE);
 
-            }else if (key == KeyEvent.VK_R){
+            } else if (key == KeyEvent.VK_R) {
                 restartLevel();
-                }
-                repaint();
             }
+            repaint();
         }
+    }
 
         private boolean checkWallCollision(Actor actor, int type) {
 
@@ -221,7 +220,7 @@ public class Board extends JPanel {
             return false;
         }
 
-        public void restartLevel() {
+    public void restartLevel() {
             grass.clear();
             initWorld();
             /*
