@@ -38,7 +38,6 @@ public final class Party extends JFrame {
         }
     }
 
-
     public static void main(String[] args) {
         Party party = new Party();
         party.setVisible(true);
